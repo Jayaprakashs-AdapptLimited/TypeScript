@@ -1,6 +1,10 @@
-var character = 'mario';
-console.log(character);
-var userInputs = document.querySelectorAll('input');
-userInputs.forEach(function (input) {
-    console.log(input);
-});
+var age;
+age = true;
+console.log(age);
+age = { name: 'karan' };
+console.log(age);
+var details;
+details = { name: 'hardik', age: 30 };
+// don't use any 
+details = { name: 30, age: 'hardik' };
+console.log(details);

@@ -1,9 +1,16 @@
-const character = 'mario';
+let age: any;
 
-console.log(character);
+age = true;
+console.log(age);
 
-const userInputs = document.querySelectorAll('input');
+age = {name: 'karan'};
+console.log(age);
 
-userInputs.forEach(input => {
-  console.log(input);
-});
+
+let details: {name: any, age: any};
+details = {name: 'hardik', age: 30};
+
+// don't use any 
+details = {name: 30, age: 'hardik'};
+console.log(details);
+
